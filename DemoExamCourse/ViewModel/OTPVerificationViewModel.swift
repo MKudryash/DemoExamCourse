@@ -10,15 +10,13 @@ import Supabase
 
 class OTPVerificationViewModel: ObservableObject {
    
-
+    // Глобальные переменные для отображение ошибки и навигации по приложению
     @Published var isNavigate: Bool = false
     @Published  var error: Bool = false
     func sentOtp(email:String, code:String)  {
         Task{
             do{
-                print(email)
-                print(code)
-                print(code.count)
+                //Проверка верификации токена и почты
                 try await supabase.auth.verifyOTP(email: email, token: code, type: .recovery)
 
                 await MainActor.run {
@@ -33,6 +31,8 @@ class OTPVerificationViewModel: ObservableObject {
             }
         }
     }
+    
+    //Повторная отправка кода на почту
     func sendEmailOtp(email: String)  {
         Task{
             do{

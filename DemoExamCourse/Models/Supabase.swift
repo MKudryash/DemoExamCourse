@@ -1,8 +1,8 @@
 //
 //  Supabase.swift
 //  DemoExamCourse
-//
-//  Created by user on 12.10.2024.
+//  Содание клиента для подключения к облачному севрису Supabase.com
+//  Created by Mamsheva on 12.10.2024.
 //
 
 import Foundation

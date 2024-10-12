@@ -1,7 +1,7 @@
 //
 //  HomeView.swift
 //  DemoExamCourse
-//
+//  Домашний экран
 //  Created by user on 12.10.2024.
 //
 

@@ -1,8 +1,8 @@
 //
 //  isValidEmail.swift
 //  DemoExamCourse
-//
-//  Created by user on 12.10.2024.
+//  Проверка на валидность email (name@domenname.ru)
+//  Created by Mamsheva on 12.10.2024.
 //
 
 import Foundation

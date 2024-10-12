@@ -1,8 +1,8 @@
 //
 //  SignUpView.swift
 //  DemoExamCourse
-//
-//  Created by user on 12.10.2024.
+//  Экран регистрации пользователя в системе (имя пользователя, телефон, почта, пароль, соглашение с политикой безопасности)
+//  Created by Mamsheva on 12.10.2024.
 //
 
 import SwiftUI

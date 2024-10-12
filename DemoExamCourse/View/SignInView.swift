@@ -1,8 +1,8 @@
 //
 //  SigInView.swift
 //  DemoExamCourse
-//
-//  Created by user on 12.10.2024.
+//  Экран авторизации (почта, пароль), с возможностью сохранения пароля
+//  Created by Mamsheva on 12.10.2024.
 //
 
 import SwiftUI

@@ -1,9 +1,8 @@
 //
 //  CustomTextField.swift
 //  DemoExamCourse
-//
-//  Created by user on 12.10.2024.
-//
+//  Создание пользовательского контейнера для ввода текста
+//  Created by Mamsheva on 12.10.2024.
 
 import SwiftUI
 

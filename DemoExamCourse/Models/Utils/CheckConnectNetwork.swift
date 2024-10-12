@@ -1,8 +1,8 @@
 //
 //  CheckConnectNetwork.swift
 //  DemoExamCourse
-//
-//  Created by user on 12.10.2024.
+//  Проверка наличия интернета на устрйостве
+//  Created by Mamsheva on 12.10.2024.
 //
 
 import Foundation

@@ -1,8 +1,8 @@
 //
 //  CustomBoxNumber.swift
 //  DemoExamCourse
-//
-//  Created by user on 12.10.2024.
+//  Пользовательский ввод токена
+//  Created by Mamsheva on 12.10.2024.
 //
 
 import SwiftUI
