@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CE3D21C42CBA183100F92492 /* DemoExamCourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D21C32CBA183100F92492 /* DemoExamCourseApp.swift */; };
-		CE3D21C62CBA183100F92492 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D21C52CBA183100F92492 /* ContentView.swift */; };
 		CE3D21C82CBA183400F92492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3D21C72CBA183400F92492 /* Assets.xcassets */; };
 		CE3D21CB2CBA183400F92492 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3D21CA2CBA183400F92492 /* Preview Assets.xcassets */; };
 		CE3D21D52CBA1A3200F92492 /* CustomCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D21D42CBA1A3200F92492 /* CustomCheckBox.swift */; };
@@ -27,12 +26,27 @@
 		CE3D21F42CBA1AEF00F92492 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE3D21E82CBA1AEE00F92492 /* Roboto-BlackItalic.ttf */; };
 		CE3D21F52CBA1AEF00F92492 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE3D21E92CBA1AEE00F92492 /* Roboto-LightItalic.ttf */; };
 		CE3D21F62CBA1AEF00F92492 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE3D21EA2CBA1AEF00F92492 /* Roboto-Italic.ttf */; };
+		CE3D21F82CBA1C1500F92492 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D21F72CBA1C1500F92492 /* SignUpView.swift */; };
+		CE3D21FA2CBA1C2000F92492 /* SigInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D21F92CBA1C2000F92492 /* SigInView.swift */; };
+		CE3D21FC2CBA1C3200F92492 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D21FB2CBA1C3200F92492 /* HomeView.swift */; };
+		CE3D21FE2CBA1C4700F92492 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D21FD2CBA1C4700F92492 /* ForgotPasswordView.swift */; };
+		CE3D22002CBA1C5700F92492 /* OTPVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D21FF2CBA1C5700F92492 /* OTPVerificationView.swift */; };
+		CE3D22022CBA1C6800F92492 /* NewPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D22012CBA1C6800F92492 /* NewPasswordView.swift */; };
+		CE3D22042CBA1C8000F92492 /* Supabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D22032CBA1C8000F92492 /* Supabase.swift */; };
+		CE3D22062CBA1C8C00F92492 /* isValidEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D22052CBA1C8C00F92492 /* isValidEmail.swift */; };
+		CE3D22092CBA1CB500F92492 /* CheckConnectNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D22082CBA1CB500F92492 /* CheckConnectNetwork.swift */; };
+		CE3D220B2CBA1CC200F92492 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D220A2CBA1CC200F92492 /* User.swift */; };
+		CE3D220F2CBA1D6500F92492 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = CE3D220E2CBA1D6500F92492 /* Auth */; };
+		CE3D22112CBA1D6500F92492 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = CE3D22102CBA1D6500F92492 /* Functions */; };
+		CE3D22132CBA1D6500F92492 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = CE3D22122CBA1D6500F92492 /* PostgREST */; };
+		CE3D22152CBA1D6500F92492 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = CE3D22142CBA1D6500F92492 /* Realtime */; };
+		CE3D22172CBA1D6500F92492 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = CE3D22162CBA1D6500F92492 /* Storage */; };
+		CE3D22192CBA1D6500F92492 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = CE3D22182CBA1D6500F92492 /* Supabase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE3D21C02CBA183100F92492 /* DemoExamCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoExamCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3D21C32CBA183100F92492 /* DemoExamCourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoExamCourseApp.swift; sourceTree = "<group>"; };
-		CE3D21C52CBA183100F92492 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE3D21C72CBA183400F92492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3D21CA2CBA183400F92492 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE3D21D42CBA1A3200F92492 /* CustomCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCheckBox.swift; sourceTree = "<group>"; };
@@ -51,6 +65,16 @@
 		CE3D21E82CBA1AEE00F92492 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
 		CE3D21E92CBA1AEE00F92492 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
 		CE3D21EA2CBA1AEF00F92492 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		CE3D21F72CBA1C1500F92492 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		CE3D21F92CBA1C2000F92492 /* SigInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigInView.swift; sourceTree = "<group>"; };
+		CE3D21FB2CBA1C3200F92492 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CE3D21FD2CBA1C4700F92492 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		CE3D21FF2CBA1C5700F92492 /* OTPVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationView.swift; sourceTree = "<group>"; };
+		CE3D22012CBA1C6800F92492 /* NewPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordView.swift; sourceTree = "<group>"; };
+		CE3D22032CBA1C8000F92492 /* Supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supabase.swift; sourceTree = "<group>"; };
+		CE3D22052CBA1C8C00F92492 /* isValidEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isValidEmail.swift; sourceTree = "<group>"; };
+		CE3D22082CBA1CB500F92492 /* CheckConnectNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckConnectNetwork.swift; sourceTree = "<group>"; };
+		CE3D220A2CBA1CC200F92492 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3D22132CBA1D6500F92492 /* PostgREST in Frameworks */,
+				CE3D22112CBA1D6500F92492 /* Functions in Frameworks */,
+				CE3D22192CBA1D6500F92492 /* Supabase in Frameworks */,
+				CE3D220F2CBA1D6500F92492 /* Auth in Frameworks */,
+				CE3D22172CBA1D6500F92492 /* Storage in Frameworks */,
+				CE3D22152CBA1D6500F92492 /* Realtime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +99,7 @@
 			children = (
 				CE3D21C22CBA183100F92492 /* DemoExamCourse */,
 				CE3D21C12CBA183100F92492 /* Products */,
+				CE3D220D2CBA1D6500F92492 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,8 +117,6 @@
 				CE3D21D32CBA188700F92492 /* View */,
 				CE3D21D22CBA187F00F92492 /* Models */,
 				CE3D21D12CBA187900F92492 /* ViewModel */,
-				CE3D21C32CBA183100F92492 /* DemoExamCourseApp.swift */,
-				CE3D21C52CBA183100F92492 /* ContentView.swift */,
 				CE3D21C72CBA183400F92492 /* Assets.xcassets */,
 				CE3D21C92CBA183400F92492 /* Preview Content */,
 			);
@@ -112,6 +141,9 @@
 		CE3D21D22CBA187F00F92492 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CE3D22072CBA1C9300F92492 /* Utils */,
+				CE3D22032CBA1C8000F92492 /* Supabase.swift */,
+				CE3D220A2CBA1CC200F92492 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -119,8 +151,15 @@
 		CE3D21D32CBA188700F92492 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CE3D21C32CBA183100F92492 /* DemoExamCourseApp.swift */,
 				CE3D21DE2CBA1AC500F92492 /* Fonts */,
 				CE3D21D62CBA1A3E00F92492 /* Components */,
+				CE3D21F72CBA1C1500F92492 /* SignUpView.swift */,
+				CE3D21F92CBA1C2000F92492 /* SigInView.swift */,
+				CE3D21FB2CBA1C3200F92492 /* HomeView.swift */,
+				CE3D21FD2CBA1C4700F92492 /* ForgotPasswordView.swift */,
+				CE3D21FF2CBA1C5700F92492 /* OTPVerificationView.swift */,
+				CE3D22012CBA1C6800F92492 /* NewPasswordView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -155,6 +194,22 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		CE3D22072CBA1C9300F92492 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CE3D22052CBA1C8C00F92492 /* isValidEmail.swift */,
+				CE3D22082CBA1CB500F92492 /* CheckConnectNetwork.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CE3D220D2CBA1D6500F92492 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,6 +226,14 @@
 			dependencies = (
 			);
 			name = DemoExamCourse;
+			packageProductDependencies = (
+				CE3D220E2CBA1D6500F92492 /* Auth */,
+				CE3D22102CBA1D6500F92492 /* Functions */,
+				CE3D22122CBA1D6500F92492 /* PostgREST */,
+				CE3D22142CBA1D6500F92492 /* Realtime */,
+				CE3D22162CBA1D6500F92492 /* Storage */,
+				CE3D22182CBA1D6500F92492 /* Supabase */,
+			);
 			productName = DemoExamCourse;
 			productReference = CE3D21C02CBA183100F92492 /* DemoExamCourse.app */;
 			productType = "com.apple.product-type.application";
@@ -199,6 +262,9 @@
 				Base,
 			);
 			mainGroup = CE3D21B72CBA183100F92492;
+			packageReferences = (
+				CE3D220C2CBA1CFB00F92492 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = CE3D21C12CBA183100F92492 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -237,12 +303,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3D22022CBA1C6800F92492 /* NewPasswordView.swift in Sources */,
+				CE3D22042CBA1C8000F92492 /* Supabase.swift in Sources */,
+				CE3D22062CBA1C8C00F92492 /* isValidEmail.swift in Sources */,
 				CE3D21D92CBA1A5B00F92492 /* CustomTextField.swift in Sources */,
-				CE3D21C62CBA183100F92492 /* ContentView.swift in Sources */,
+				CE3D22092CBA1CB500F92492 /* CheckConnectNetwork.swift in Sources */,
+				CE3D22002CBA1C5700F92492 /* OTPVerificationView.swift in Sources */,
 				CE3D21C42CBA183100F92492 /* DemoExamCourseApp.swift in Sources */,
+				CE3D220B2CBA1CC200F92492 /* User.swift in Sources */,
 				CE3D21DB2CBA1A7300F92492 /* CustomSecuredField.swift in Sources */,
 				CE3D21D52CBA1A3200F92492 /* CustomCheckBox.swift in Sources */,
+				CE3D21F82CBA1C1500F92492 /* SignUpView.swift in Sources */,
+				CE3D21FC2CBA1C3200F92492 /* HomeView.swift in Sources */,
 				CE3D21DD2CBA1A8500F92492 /* CustomBoxNumber.swift in Sources */,
+				CE3D21FE2CBA1C4700F92492 /* ForgotPasswordView.swift in Sources */,
+				CE3D21FA2CBA1C2000F92492 /* SigInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +521,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE3D220C2CBA1CFB00F92492 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE3D220E2CBA1D6500F92492 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE3D220C2CBA1CFB00F92492 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		CE3D22102CBA1D6500F92492 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE3D220C2CBA1CFB00F92492 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		CE3D22122CBA1D6500F92492 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE3D220C2CBA1CFB00F92492 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		CE3D22142CBA1D6500F92492 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE3D220C2CBA1CFB00F92492 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		CE3D22162CBA1D6500F92492 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE3D220C2CBA1CFB00F92492 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		CE3D22182CBA1D6500F92492 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE3D220C2CBA1CFB00F92492 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE3D21B82CBA183100F92492 /* Project object */;
 }
