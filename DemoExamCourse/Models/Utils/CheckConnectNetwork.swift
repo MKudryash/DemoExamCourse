@@ -10,22 +10,22 @@ import Network
 
 
 final class CheckConnectNetwork {
-//    @Published var isConnected: Bool = true
-//    
-//    static let instance = NetworkMonitor()
-//
-//    private let networkMonitor = NWPathMonitor()
-//
-//    private let queue = DispatchQueue(label: "NetworkQueue")
-//
-//    init() {
-//        networkMonitor.pathUpdateHandler = { path in
-//            let isConnected = path.status == .satisfied
-//            
-//            DispatchQueue.main.async {
-//                self.isConnected = isConnected
-//            }
-//        }
-//        networkMonitor.start(queue: queue)
-//    }
+    @Published var isConnected: Bool = true
+    
+    static let instance = CheckConnectNetwork()
+
+    private let networkMonitor = NWPathMonitor()
+
+    private let queue = DispatchQueue(label: "NetworkQueue")
+
+    init() {
+        networkMonitor.pathUpdateHandler = { path in
+            let isConnected = path.status == .satisfied
+            
+            DispatchQueue.main.async {
+                self.isConnected = isConnected
+            }
+        }
+        networkMonitor.start(queue: queue)
+    }
 }

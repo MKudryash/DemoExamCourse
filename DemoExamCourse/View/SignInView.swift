@@ -137,6 +137,11 @@ struct SignInView: View {
             }
         }
         .navigationBarBackButtonHidden(true)
+        .onReceive(CheckConnectNetwork.instance.$isConnected) { value in
+            if !value {
+                isConnectNetwork = true
+            }
+        }
     }
 }
 
