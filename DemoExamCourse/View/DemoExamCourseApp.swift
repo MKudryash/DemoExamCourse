@@ -2,7 +2,7 @@
 //  DemoExamCourseApp.swift
 //  DemoExamCourse
 //
-//  Created by user on 12.10.2024.
+//  Created by Mamsheva on 12.10.2024.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct DemoExamCourseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SignUpView()
         }
     }
 }
