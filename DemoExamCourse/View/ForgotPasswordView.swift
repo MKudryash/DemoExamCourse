@@ -14,6 +14,7 @@ struct ForgotPasswordView: View {
     @State var email: String = ""
     @StateObject var viewModel = ForgotPasswordViewModel()
     @State var isNavigate: Bool = false
+    @State var isConnectNetwork = false
     var body: some View {
         NavigationView{
             ZStack{

@@ -15,6 +15,7 @@ struct SignInView: View {
     @State var isNavigateSignUp: Bool = false
     @State var isSecure: Bool = false
     @State var check = false
+    @State var isConnectNetwork = false
     @StateObject var viewModel = SignInViewModel()
     @State private var buttonColor: Color = .gray
     var body: some View {

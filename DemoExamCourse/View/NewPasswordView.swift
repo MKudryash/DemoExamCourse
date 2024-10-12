@@ -15,6 +15,7 @@ struct NewPasswordView: View {
     @State var isShowAlert = false
     @State var isSecure = true
     @State var isSecureConfirm = true
+    @State var isConnectNetwork = false
     var body: some View {
         NavigationView{
             ZStack{

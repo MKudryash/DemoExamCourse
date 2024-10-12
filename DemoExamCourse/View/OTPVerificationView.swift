@@ -21,6 +21,7 @@ struct OTPVerificationView: View {
     @State var isShowAlert = false
     @StateObject var viewModel = OTPVerificationViewModel()
     @State private var isButtonDisabled: Bool = true
+    @State var isConnectNetwork = false
     
     @State var timeRemaining = 59
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
