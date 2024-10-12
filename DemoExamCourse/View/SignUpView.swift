@@ -84,7 +84,7 @@ struct SignUpView: View {
                     })
                     .alert(isPresented: $viewModel.error) {
                         Alert(title: Text("Ошибка"),
-                              message: Text("Не верно введены данные или отсутствует интернет!"),
+                              message: Text("Неверно введены данные"),
                               dismissButton: .default(Text("OK")))
                     }
                     
